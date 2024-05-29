@@ -2,8 +2,8 @@ const axios = require('axios');
 
 const Prefixes = [
   '/ai', 
-  'titus',
-  'nemo',
+  'zéroo fouku',
+  'seigneur',
   'ai',
   'ask',
 ];
@@ -29,7 +29,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("Bonjour, comment puis-je vous aidez ? 💖");
+        await message.reply("C'est moi le dieu ototsuki qui ne craint rien ni personne. créature inférieure pose moi ta questions. besoin d'aide contacte mon maître le seigneur zéroo fouku.");
         return;
       }
 
