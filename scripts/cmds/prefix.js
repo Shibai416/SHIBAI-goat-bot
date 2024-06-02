@@ -1,7 +1,4 @@
-Tu écris 
-
-
-+cmd install Prefix.js module.exports = {
+module.exports = {
     config: {
         name: "Prefix",
         version: "1.0",
