@@ -1,6 +1,6 @@
 const { getTime, drive } = global.utils;
 if (!global.temp.welcomeEvent)
-	global.temp.welcomeEvent = { salut cher utilisateur je suis le seigneur zéroo fouku };
+	global.temp.welcomeEvent = {bienvenue dans le 💫 groupe 💫 };
 
 module.exports = {
 	config: {
