@@ -18,7 +18,7 @@ async function getAIResponse(input, userId, messageID) {
     { url: 'https://ai-chat-gpt-4-lite.onrender.com/api/hercai', params: { question: input } }
   ];
 
-  let response = "🇧🇫C'est moi le dieu ototsuki qui ne craint rien ni personne🇧🇫. Je réponds à toutes tes questions grâce à mon 🔥TSUKONAYKONA🔥";
+  let response = "✨ $Ålüt✨ je suis l'intelligence artificielle des élèves de ☘️BOULSA☘️ quelle est votre question 🤷";
   let currentIndex = 0;
 
   for (let i = 0; i < services.length; i++) {
@@ -57,7 +57,7 @@ module.exports = {
     if (messageContent.startsWith("ai")) {
       const input = messageContent.replace(/^ai\s*/, "").trim();
       const { response, messageID } = await getAIResponse(input, event.senderID, message.messageID);
-      message.reply(`SEIGNEUR ZÉROO FOUKU\n━━━━━━━━━━━━━━━━\n${response}\n━━━━━━━━━━━━━━━━`, messageID);
+      message.reply(`☘️BOULSA☘️\n━━━━━━━━━━━━━━━━\n${response}\n━━━━━━━━━━━━━━━━`, messageID);
     }
   }
 };
