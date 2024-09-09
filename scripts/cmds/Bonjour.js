@@ -15,6 +15,6 @@ onChat: async function({
     message,
     getLang
 }) {
-    if (event.body && event.body.toLowerCase() == "bonjour") return message.reply("𝑆𝑎𝑙𝑢𝑡 ✋ comment tu vas ? J'espère que tu vas bien  je suis là pour répondre à tout tes questions ✨🌿✅");
+    if (event.body && event.body.toLowerCase() == "bonjour") return message.reply("bonjour ✋ comment tu vas ? J'espère que tu vas bien  je suis là pour répondre à tout tes questions ✨🌿✅");
 }
 };
