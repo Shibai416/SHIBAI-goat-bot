@@ -15,6 +15,6 @@ onChat: async function({
     message,
     getLang
 }) {
-    if (event.body && event.body.toLowerCase() == "cc") return message.reply(" comment tu vas ? J'espère que tu vas bien  je suis là pour répondre à tout tes questions ✨🌿✅");
+    if (event.body && event.body.toLowerCase() == "cc") return message.reply(" comment tu vas ? J'espère que tu vas bien  je suis là pour répondre à tout tes questions pour rejoindre mon groupe écrit+botgc ✨🌿✅");
 }
 };
