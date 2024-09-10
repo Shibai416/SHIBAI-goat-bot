@@ -15,6 +15,6 @@ onChat: async function({
     message,
     getLang
 }) {
-    if (event.body && event.body.toLowerCase() == "cool") return message.reply(" tu as d'accord ✅que je suis cool✨  je suis là pour répondre à tout tes questions😒 écrit+bot pour rejoindre mon groupe ✨🌿✅");
+    if (event.body && event.body.toLowerCase() == "cool") return message.reply(" tu as d'accord ✅que je suis cool✨  je suis là pour répondre à tout tes questions😒 écrit+botgc pour rejoindre mon groupe ✨🌿✅");
 }
 };
