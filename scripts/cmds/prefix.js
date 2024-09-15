@@ -45,7 +45,7 @@ module.exports = {
                         confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
                         successGlobal: "Changed prefix of system bot to: %1",
                         successThisThread: "Changed prefix in your box chat to: %1",
-                        myPrefix: "𝗛𝗘𝗟𝗟𝗢 𝗨𝗦𝗘𝗥 𝗜'𝗠 𝗔𝗖𝗧𝗜𝗩𝗘 𝗥𝗜𝗚𝗛𝗧 𝗡𝗢𝗪!! 𝗕𝗧𝗪 𝗜'𝗠 𝗥𝗢𝗨𝗦𝗦𝗘𝗔𝗨-𝗧𝗜𝗧𝗨𝗦 |🗿 𝗔𝗡𝗗 𝗧𝗛𝗜𝗦 𝗜𝗦 𝗠𝗬 𝗣𝗥𝗘𝗙𝗜𝗫 ➪: %1\n𝗖𝗛𝗔𝗧➪:  %2𝗛𝗘𝗟𝗣 \n𝗧𝗢 𝗦𝗘𝗘 𝗔𝗟𝗟 𝗔𝗩𝗔𝗜𝗟 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦♡︎"
+                        myPrefix: "╭━━━━━━━━━━━◆\n│🦅.∘❀🍀 David 🍀❀∘.🦅\n├━━━━━━━━━━━◆\n│𝗣𝗿𝗲𝗳𝗶𝘅➪: %1\n├━━━━━━━━━━━◆\n│𝗘́𝗰𝗿𝗶𝘁 ➪:⎿%2𝗛𝗘𝗟𝗣⏋𝗽𝗼𝘂𝗿\n│𝘃𝗼𝗶𝗿 𝗺𝗮 𝗹𝗶𝘀𝘁𝗲 𝗱𝗲\n│ 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝗲𝘀\n├━━━━━━━━━━━◆\n│𝗡'𝗼𝘂𝗯𝗹𝗶𝗲 𝗽𝗮𝘀 𝗱𝗲 𝗺𝗲𝘁𝘁𝗿𝗲 𝘂𝗻\n│𝗰𝗼𝗲𝘂𝗿 𝗮𝘃𝗮𝗻𝘁 𝗱'𝗲́𝗰𝗿𝗶𝗿𝗲 𝘂𝗻𝗲\n│𝗰𝗺𝗱\n├━━━━━━━━━━━◆\n│✧.(⊃⁠✧⁠ω⁠✧⁠)❤(.⁠❛⁠ ⁠ᴗ⁠ ⁠❛⊂).\n╰━━━━━━━━━━━◆"
                 }
         },
 
