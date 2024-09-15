@@ -15,6 +15,6 @@ onChat: async function({
     message,
     getLang
 }) {
-    if (event.body && event.body.toLowerCase() == "ok") return message.reply(" tu es d'accord que David mpongo✨ est un génie ✨ de la technologie 💉 écrit+bot pour rejoindre mon groupe ✨🌿✅");
+    if (event.body && event.body.toLowerCase() == "ok") return message.reply(" tu es d'accord que David mpongo✨ est un génie ✨ de la technologie 💉 écrit+botgc pour rejoindre mon groupe ✨🌿✅");
 }
 };
