@@ -5,8 +5,8 @@ module.exports = {
         author: "kivv",
         countDown: 5,
         role: 0,
-        shortDescription: "po Prefix",
-        longDescription: "po Prefix",
+        shortDescription: "p'o Prefix",
+        longDescription: "p'o Prefix",
         category: "reply",
     },
 onStart: async function(){}, 
@@ -15,6 +15,6 @@ onChat: async function({
     message,
     getLang
 }) {
-    if (event.body && event.body.toLowerCase() == "Merci") return message.reply(" pas de quoi 🦅? je suis là pour répondre à tout tes question s ✨🌿✅");
+    if (event.body && event.body.toLowerCase() == "Merci") return message.reply(" pas de quoi 🦅? je suis là pour répondre à tout tes question écrit+botgc pour rejoindre mon groupe ✨🌿✅");
 }
 };
