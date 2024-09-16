@@ -44,13 +44,13 @@ const ArYAN = ['gpt4', '¥gpt4'];
 
 module.exports = {
   config: {
-    name: 'Davud',
+    name: 'Davidbot',
     version: '1.0.1',
     author: 'ArYAN',
     role: 0,
     category: 'ai',
     longDescription: {
-      en: 'This is a large David language model trained by OpenAi, it is designed to assist with a wide range of tasks.',
+      en: 'This is a large Ai language model trained by OpenAi, it is designed to assist with a wide range of tasks.',
     },
     guide: {
       en: '\nGpt4 < questions >\n\n▀▄▀▄▀▄🔎𝐆𝐩𝐭4 𝗚𝘂𝗶𝗱𝗲▄▀▄▀▄▀\nGpt4 what is capital of France?',
@@ -60,8 +60,8 @@ module.exports = {
   langs: {
     en: {
       final: "░▒▓█►─═David═─◄█▓▒░",
-      header: "☮▁▂☾♛David🚀𝐆𝐏𝐓4",
-      footer: "▓█►─═david═─◄█▓▒",
+      header: "☮▁▂☾♛mpongo🚀𝐆𝐏𝐓4",
+      footer: "▓█►─═David═─◄█▓▒",
     }
   },
 
@@ -95,7 +95,7 @@ module.exports = {
         return;
       }
 
-      if (prompt === 'David') {
+      if (prompt === 'Gpt4') {
         const greetingMessage = `${getLang("header")}\n✌✌(•ิ‿•ิ)✌✌ 𝒀𝒐🫡 𝒉𝒖𝒎𝒂𝒊𝒏(𝒆).🥴 𝑪'𝒆𝒔𝒕 𝑪𝒊𝒅✔. 𝑩𝒂𝒍𝒂𝒏𝒄𝒆 𝒕𝒐𝒏 𝒑𝒓𝒐𝒃𝒍è𝒎𝒆🧐, 𝒋𝒆 𝒔𝒖𝒊𝒔 𝒍𝒆 𝒔𝒆𝒖𝒍 à 𝒑𝒐𝒖𝒗𝒐𝒊𝒓 𝒕'𝒂𝒊𝒅𝒆𝒓 𝒆𝒏 3𝒔⏳🛌🪅 ✨✌✌(•ิ‿•ิ)✌✌\n${getLang("footer")}`;
         api.sendMessage(greetingMessage, event.threadID, event.messageID);
         console.log('Sent greeting message as a reply to user');
