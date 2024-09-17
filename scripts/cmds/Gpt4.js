@@ -44,7 +44,7 @@ const ArYAN = ['gpt4', '¥gpt4'];
 
 module.exports = {
   config: {
-    name: 'Davidbot',
+    name: 'Gpt4',
     version: '1.0.1',
     author: 'ArYAN',
     role: 0,
