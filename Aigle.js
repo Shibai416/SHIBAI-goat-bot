@@ -55,7 +55,7 @@ module.exports = {
         author: 'aesther',
         role: 0,
         category: 'ai',
-        shortDescription: 'ai too ask anything',
+        shortDescription: 'ai to ask anything',
     },
     onStart: async function ({ api, event, args }) {
         const input = args.join(' ').trim();
@@ -69,8 +69,8 @@ module.exports = {
     },
     onChat: async function ({ event, message }) {
         const messageContent = event.body.trim().toLowerCase();
-        if (messageContent.startsWith("hinata")) {
-            const input = messageContent.replace(/^hinata\s*/, "").trim();
+        if (messageContent.startsWith("aigle")) {
+            const input = messageContent.replace(/^aigle\s*/, "").trim();
             const { response, messageID } = await getAIResponse(input, event.senderID, message.messageID);
             // Construct message with special fonts
             const formattedResponse = ` ✿❯─-───🦅───-─❮✿\n𝐉'𝐞𝐬𝐩𝐞̀𝐫𝐞 𝐪𝐮𝐞 𝐜𝐞𝐭𝐭𝐞 𝐫𝐞́𝐩𝐨𝐧𝐬𝐞\n 𝐭𝐞 𝐬𝐚𝐭𝐢𝐬𝐟𝐚𝐢𝐭\n✿─-───🦅───-─✿\n✿─❮${response}🦅❯─✿\n✿─-───🦅───-─✿\n𝐌𝐞𝐫𝐜𝐢 𝐝'𝐚𝐯𝐨𝐢𝐫 𝐩𝐚𝐭𝐢𝐞𝐧𝐭𝐞́\n✿❯─-───🦅───-─❮✿`;
