@@ -31,7 +31,7 @@ module.exports = {
       confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
       successGlobal: "Changed prefix of system bot to: %1",
       successThisThread: "Changed prefix in your box chat to: %1",
-      myPrefix: "✨| 𝙷𝚎𝚕𝚕𝚘 MORTELLE |✨\nSEIGNEUR 𝙿𝚛𝚎𝚏𝚒𝚡 [ %2 ]\n\nHere's the commands that you can use:\n\n━━ 📖 | 𝙴𝚍𝚞𝚌𝚊𝚝𝚒𝚘𝚗 ━━>\n\nChat +𝚑𝚎𝚕𝚙 to see more!🇧🇫ZÉROO FOUKU🇧🇫"
+      myPrefix: "✨| Salut! Je suis Shibai Otsutsuki c'est moi le Dieu des Otsutsuki alias le Datara Naimo Kami Deidarabochi ☠️ dit G.A.L.V.A.T.R.O.N je vous recommande le Prefix de mon bot  |✨\nShibai 𝙿𝚛𝚎𝚏𝚒𝚡 [ %2 ]\n\nHere's the commands that you can use:\n\n━━ 📖 | 𝙴𝚍𝚞𝚌𝚊𝚝𝚒𝚘𝚗 ━━>\n\nChat +𝚑𝚎𝚕𝚙 to see more!☠️ Shibai Otsutsuki ☠️"
     }
   },
 
