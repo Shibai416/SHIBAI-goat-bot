@@ -10,7 +10,7 @@ module.exports = {
 		role: 2,
 		description: {
 			vi: "Gửi thông báo từ admin đến all box",
-			en: "Send notification from admin to all box"
+			en: "Notification du Sensei du Bot"
 		},
 		category: "owner",
 		guide: {
