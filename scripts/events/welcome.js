@@ -1,6 +1,6 @@
 const { getTime, drive } = global.utils;
 if (!global.temp.welcomeEvent)
-	global.temp.welcomeEvent = {bienvenue dans le 💫 groupe 💫 };
+	global.temp.welcomeEvent = {bienvenue dans le 💫 groupe 💫 n'oublie pas que Shibai Otsutsuki es le meilleur };
 
 module.exports = {
 	config: {
@@ -26,10 +26,10 @@ module.exports = {
 			session2: "noon",
 			session3: "afternoon",
 			session4: "evening",
-			welcomeMessage: "Thank you for inviting me to the group!\nBot prefix: %1\nTo view the list of commands, please enter: %1help",
+			welcomeMessage: "Merci de m'avoir inventé dans vôtre groupe n'oubliez pas que Shibai Otsutsuki es le meilleur!\nBot prefix: %1\nTo view the list of commands, please enter: %1help",
 			multiple1: "you",
 			multiple2: "you guys",
-			defaultWelcomeMessage: `Hello {userName}.\nWelcome {multiple} to the chat group: {boxName}\nHave a nice {session} 😊`
+			defaultWelcomeMessage: `Salut! {userName}.\nBienvenu {multiple} dans le groupe: {boxName}\n'oublie pas que Shibai Otsutsuki es le meilleur {session} 😊`
 		}
 	},
 
