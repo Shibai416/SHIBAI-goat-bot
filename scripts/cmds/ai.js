@@ -28,7 +28,7 @@ async function getAIResponse(input, userId, messageID) {
         { url: 'https://ai-chat-gpt-4-lite.onrender.com/api/hercai', params: { question: input } }
     ];
 
-    let response = " ✰.. 𝘚𝘢𝘭𝘶𝘵 👋 𝘦𝘯 𝘲𝘶𝘰𝘪 𝘱𝘶𝘪𝘴-𝘫𝘦 𝘷𝘰𝘶𝘴 𝘢𝘪𝘥𝘦𝘻 ?? .. écrit+botgc pour rejoindre mon groupe ✰";
+    let response = " ✰.. 𝘚𝘢𝘭𝘶𝘵! 👋 je me nomme ÝĄŇ ŞHĪ je suis une Intelligence Artificielle créer par Shibai Otsutsuki mon maître 😋 comment puis-je vous aider aujourd'hui ?🙂 ✰";
     let currentIndex = 0;
 
     for (let i = 0; i < services.length; i++) {
@@ -65,7 +65,7 @@ module.exports = {
         }
 
         const { response, messageID } = await getAIResponse(input, event.senderID, event.messageID);
-        api.sendMessage(`✰...𝔻𝕒𝕧𝕚𝕕  𝐩𝐫𝐨𝐜𝐞̀𝐝𝐞 𝐚 𝐯𝐨𝐭𝐫𝐞 𝐫𝐞𝐪𝐮𝐞̂𝐭𝐞...✰`, event.threadID, messageID);
+        api.sendMessage(`✰...veillez patientez quelques seconde Shibai Otsutsuki es trop chou 🤗...✰`, event.threadID, messageID);
     },
     onChat: async function ({ event, message }) {
         const messageContent = event.body.trim().toLowerCase();
@@ -73,7 +73,7 @@ module.exports = {
             const input = messageContent.replace(/^ai\s*/, "").trim();
             const { response, messageID } = await getAIResponse(input, event.senderID, message.messageID);
             // Construct message with special fonts
-            const formattedResponse = ` 🦅..𝔻𝕒𝕧𝕚𝕕 .🦅 :\n━━━━━━━━━━━━━━━━\n${response} 🦅`;
+            const formattedResponse = ` 🦅..Shibai Bot.🦅 :\n━━━━━━━━━━━━━━━━\n${response} 🦅`;
             message.reply(formattedResponse, messageID);
         }
     }
