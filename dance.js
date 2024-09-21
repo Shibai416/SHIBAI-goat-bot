@@ -2,13 +2,13 @@ const axios = require('axios');
 
 module.exports = {
   config: {
-    name: "dance",
+    name: "Dance",
     version: "1.0",
     author: "kshitiz",
     countDown: 5,
     role: 0,
-    shortDescription: "Dance",
-    longDescription: "Anime Dance",
+    shortDescription: "Dances",
+    longDescription: "Anime Dances",
     category: "anime",
     guide: "{pn}"
   },
